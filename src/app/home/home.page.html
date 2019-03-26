@@ -1,5 +1,5 @@
 <ion-header>
-  <ion-toolbar>
+  <ion-toolbar color="secondary">
     <ion-title text-center>
       Home
     </ion-title>
@@ -9,28 +9,28 @@
 <ion-content>
   <ion-grid>
     <ion-row>
-      <ion-col size-md="3" size-xs="6">
-        <ion-card text-center class="tile" (click)="goToAgenda()" color="secondary">
+      <ion-col size-md="6" size-xs="12">
+        <ion-card text-center class="tile" (click)="goToAgenda()" color="tertiary" no-margin>
           <div><ion-icon name="ios-calendar" class="tile-icon"></ion-icon></div>
-          <ion-label>Agenda</ion-label>
+          <ion-label class="font-grey">Agenda</ion-label>
         </ion-card>
       </ion-col>
-      <ion-col size-md="3" size-xs="6">
-        <ion-card text-center class="tile" (click)="goToFloorPlan()">
+      <ion-col size-md="6" size-xs="12">
+        <ion-card text-center class="tile" (click)="goToFloorPlan()" color="tertiary" no-margin>
           <div><ion-icon name="ios-map" class="tile-icon"></ion-icon></div>
-          <ion-label>Floor plan</ion-label>
+          <ion-label class="font-grey">Floor plan</ion-label>
         </ion-card>
       </ion-col>
-      <ion-col size-md="3" size-xs="6">
-        <ion-card text-center class="tile" (click)="goToSurvey()">
+      <ion-col size-md="6" size-xs="12">
+        <ion-card text-center class="tile" (click)="goToSurvey()" color="tertiary" no-margin>
           <div><ion-icon name="ios-list-box" class="tile-icon"></ion-icon></div>
-          <ion-label>Survey</ion-label>
+          <ion-label class="font-grey">Survey</ion-label>
         </ion-card>
       </ion-col>
-      <ion-col size-md="3" size-xs="6">
-        <ion-card text-center class="tile" (click)="goToAbout()">
+      <ion-col size-md="6" size-xs="12">
+        <ion-card text-center class="tile" (click)="goToAbout()" color="tertiary" no-margin>
           <div><ion-icon name="ios-information-circle" class="tile-icon"></ion-icon></div>
-          <ion-label>About</ion-label>
+          <ion-label class="font-grey">About</ion-label>
         </ion-card>
       </ion-col>
     </ion-row>
