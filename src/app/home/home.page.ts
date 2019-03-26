@@ -24,10 +24,9 @@ export class HomePage {
   setTabAsSelected(index) {
     for (let i = 0; i < this.tabs.length; i++) {
       if (i === index) {
-        this.renderer.setStyle(this.tabs[i].nativeElement, 'color', '#ffffff');
-        this.renderer.setStyle(this.tabs[i].nativeElement, 'background-color', '#8D7249');
+        // this.renderer.setStyle(this.tabs[i].nativeElement, 'color', '#8D7249');
+        this.renderer.setStyle(this.tabs[i].nativeElement, 'background-color', '#E1E1E1');
       } else {
-        this.renderer.setStyle(this.tabs[i].nativeElement, 'color', '#737373');
         this.renderer.setStyle(this.tabs[i].nativeElement, 'background-color', '#ffffff');
       }
     }
