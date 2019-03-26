@@ -1,5 +1,5 @@
 <ion-header>
-  <ion-toolbar>
+  <ion-toolbar color="secondary">
     <ion-buttons slot="start">
       <ion-back-button defaultHref="/tabs/home"></ion-back-button>
     </ion-buttons>
@@ -11,14 +11,12 @@
   <ion-grid>
     <ion-row>
       <ion-col size-md="8" offset-md="2">
-        <ion-card no-margin>
+        <ion-card color="tertiary" no-margin>
           <ion-row>
-            <ion-col size="2" text-center>
-              <div><ion-icon name="star-outline" class="star"></ion-icon></div>
+            <ion-col class="font-grey" size="2" text-center>
               08:00<br>AM
             </ion-col>
             <ion-col size="10">
-              <ion-card-subtitle text-right><br></ion-card-subtitle>
               <ion-row>
                 <ion-col>
                   <ion-card-title>Registration</ion-card-title>                  
@@ -31,10 +29,9 @@
     </ion-row>
     <ion-row>
       <ion-col size-md="8" offset-md="2">
-        <ion-card no-margin>
+        <ion-card color="tertiary" no-margin>
           <ion-row>
-            <ion-col size="2" text-center>
-              <div><ion-icon name="star-outline" class="star"></ion-icon></div>
+            <ion-col class="font-grey" size="2" text-center>
               09:50<br>AM
             </ion-col>
             <ion-col size="10">
@@ -51,18 +48,17 @@
     </ion-row>
     <ion-row>
       <ion-col size-md="8" offset-md="2">
-        <ion-card no-margin>
+        <ion-card color="tertiary" (click)="goToDetail()" no-margin>
           <ion-row>
-            <ion-col size="2" text-center>
-              <div><ion-icon name="star-outline" class="star"></ion-icon></div>
+            <ion-col size="2" class="font-grey" text-center>
               10:00<br>AM
             </ion-col>
-            <ion-col size="10" (click)="goToDetail()">
+            <ion-col size="10">
               <ion-card-subtitle text-right>Hall 4, Festival Stage</ion-card-subtitle>
               <ion-row class="padding-right">
                 <ion-col size="11">
                   <ion-card-title>Lorem Ipsum</ion-card-title>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Netus et malesuada fames ac turpis egestas. Pellentesque elit eget gravida cum sociis natoque penatibus. Turpis egestas integer eget aliquet nibh. Lorem ipsum dolor sit amet consectetur. Enim tortor at auctor urna. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  <div class="font-grey">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Netus et malesuada fames ac turpis egestas. Pellentesque elit eget gravida cum sociis natoque penatibus. Turpis egestas integer eget aliquet nibh. Lorem ipsum dolor sit amet consectetur. Enim tortor at auctor urna. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
                 </ion-col>
                 <ion-col size="1" class="parent-middle">
                   <div class="child-middle">
