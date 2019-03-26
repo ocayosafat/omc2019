@@ -9,28 +9,28 @@
 <ion-content>
   <ion-grid>
     <ion-row>
-      <ion-col size-md="3">
-        <ion-card text-center class="tile">
-          <div><ion-icon name="ios-information-circle-outline" class="tile-icon"></ion-icon></div>
-          <ion-label>About</ion-label>
-        </ion-card>
-      </ion-col>
-      <ion-col>
-        <ion-card text-center class="tile">
-          <div><ion-icon name="ios-calendar-outline" class="tile-icon"></ion-icon></div>
+      <ion-col size-md="3" size-xs="6">
+        <ion-card text-center class="tile" (click)="goToAgenda()">
+          <div><ion-icon name="ios-calendar" class="tile-icon"></ion-icon></div>
           <ion-label>Agenda</ion-label>
         </ion-card>
       </ion-col>
-      <ion-col>
-        <ion-card text-center class="tile">
-          <div><ion-icon name="ios-map-outline" class="tile-icon"></ion-icon></div>
+      <ion-col size-md="3" size-xs="6">
+        <ion-card text-center class="tile" (click)="goToFloorPlan()">
+          <div><ion-icon name="ios-map" class="tile-icon"></ion-icon></div>
           <ion-label>Floor plan</ion-label>
         </ion-card>
       </ion-col>
-      <ion-col>
-        <ion-card text-center class="tile">
-          <div><ion-icon name="ios-list-box-outline" class="tile-icon"></ion-icon></div>
+      <ion-col size-md="3" size-xs="6">
+        <ion-card text-center class="tile" (click)="goToSurvey()">
+          <div><ion-icon name="ios-list-box" class="tile-icon"></ion-icon></div>
           <ion-label>Survey</ion-label>
+        </ion-card>
+      </ion-col>
+      <ion-col size-md="3" size-xs="6">
+        <ion-card text-center class="tile" (click)="goToAbout()">
+          <div><ion-icon name="ios-information-circle" class="tile-icon"></ion-icon></div>
+          <ion-label>About</ion-label>
         </ion-card>
       </ion-col>
     </ion-row>

@@ -4,20 +4,20 @@
 /** Ionic CSS Variables **/
 :root {
   /** primary **/
-  --ion-color-primary: #3880ff;
-  --ion-color-primary-rgb: 56, 128, 255;
+  --ion-color-primary: #08457E;
+  --ion-color-primary-rgb: 8, 69, 126;
   --ion-color-primary-contrast: #ffffff;
   --ion-color-primary-contrast-rgb: 255, 255, 255;
-  --ion-color-primary-shade: #3171e0;
-  --ion-color-primary-tint: #4c8dff;
+  --ion-color-primary-shade: rgb(7, 55, 100);
+  --ion-color-primary-tint: rgb(15, 106, 190);
 
   /** secondary **/
-  --ion-color-secondary: #0cd1e8;
-  --ion-color-secondary-rgb: 12, 209, 232;
+  --ion-color-secondary: #8D7249;
+  --ion-color-secondary-rgb: 141, 114, 73;
   --ion-color-secondary-contrast: #ffffff;
   --ion-color-secondary-contrast-rgb: 255, 255, 255;
-  --ion-color-secondary-shade: #0bb8cc;
-  --ion-color-secondary-tint: #24d6ea;
+  --ion-color-secondary-shade: rgb(110, 90, 58);
+  --ion-color-secondary-tint: rgb(196, 159, 103);
 
   /** tertiary **/
   --ion-color-tertiary: #7044ff;
@@ -76,33 +76,33 @@
   --ion-color-light-tint: #f5f6f9;
 
   /** font **/
-  --ion-font-family: 'Open Sans';
+  --ion-font-family: 'Source Sans Pro';
 }
 
 @font-face {
-  font-family: 'Open Sans';
+  font-family: 'Source Sans Pro';
   font-style: normal;
   font-weight: normal;
-  src: url('../assets/fonts/open-sans/OpenSans-Regular.ttf');
+  src: url('../assets/fonts/source-sans-pro/SourceSansPro-Regular.ttf');
 }
 
 @font-face {
-  font-family: 'Open Sans';
+  font-family: 'Source Sans Pro';
   font-style: normal;
   font-weight: bold;
-  src: url('../assets/fonts/open-sans/OpenSans-Bold.ttf');
+  src: url('../assets/fonts/source-sans-pro/SourceSansPro-Bold.ttf');
 }
 
 @font-face {
-  font-family: 'Open Sans';
+  font-family: 'Source Sans Pro';
   font-style: italic;
   font-weight: normal;
-  src: url('../assets/fonts/open-sans/OpenSans-Italic.ttf');
+  src: url('../assets/fonts/source-sans-pro/SourceSansPro-Italic.ttf');
 }
 
 @font-face {
-  font-family: 'Open Sans';
+  font-family: 'Source Sans Pro';
   font-style: italic;
   font-weight: bold;
-  src: url('../assets/fonts/open-sans/OpenSans-BoldItalic.ttf');
+  src: url('../assets/fonts/source-sans-pro/SourceSansPro-BoldItalic.ttf');
 }

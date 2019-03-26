@@ -13,6 +13,31 @@ const routes: Routes = [
           {
             path: '',
             loadChildren: '../home/home.module#HomePageModule'
+          },
+          {
+            path: 'agenda',
+            children: [
+               {
+                 path: '',
+                 loadChildren: '../home/agenda/agenda.module#AgendaPageModule'
+               }, 
+               {
+                 path: 'agenda-detail',
+                 loadChildren: '../home/agenda/agenda-detail/agenda-detail.module#AgendaDetailPageModule'
+               }
+            ]
+          },
+          {
+            path: 'floor-plan',
+            loadChildren: '../home/floor-plan/floor-plan.module#FloorPlanPageModule'
+          },
+          {
+            path: 'survey',
+            loadChildren: '../home/survey/survey.module#SurveyPageModule'
+          },
+          {
+            path: 'about',
+            loadChildren: '../home/about/about.module#AboutPageModule'
           }
         ]
       },

@@ -1,0 +1,24 @@
+.star {
+    font-size: 200%;
+}
+
+.arrow {
+    font-size: 300%;
+}
+
+.padding-right {
+    padding-right: 20px;
+}
+
+.parent-middle {
+    position: relative;
+}
+
+.child-middle {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    height: 30%;
+    width: 50%;
+    margin: -15% 0 0 -25%;
+}
