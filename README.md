@@ -7,7 +7,7 @@ npm install -g ionic
 ```
 And also csv parser
 ```
-npm install csv-parse
+npm install @types/papaparse --save
 ```
 Then, go to your local directory.
 ```
