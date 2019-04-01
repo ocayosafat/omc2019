@@ -38,6 +38,10 @@ const routes: Routes = [
           {
             path: 'about',
             loadChildren: '../home/about/about.module#AboutPageModule'
+          },
+          {
+            path: 'my-seating',
+            loadChildren: '../home/my-seating/my-seating.module#MySeatingPageModule'
           }
         ]
       },
