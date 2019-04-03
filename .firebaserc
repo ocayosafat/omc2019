@@ -1,5 +1,6 @@
 {
   "projects": {
-    "omc2019": "omc2019-96938"
+    "staging": "omc2019ionic4",
+    "default": "omc2019ionic4"
   }
 }

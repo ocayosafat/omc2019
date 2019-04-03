@@ -5,9 +5,9 @@ import { SplashScreen } from '@ionic-native/splash-screen/ngx';
 import { StatusBar } from '@ionic-native/status-bar/ngx';
 
 const config = {
-  apiKey: 'AIzaSyDtMTFJTvqrYiJQ_9DMbN1t-dwtrWUz0zM',
-  databaseURL: 'https://omc2019-96938.firebaseio.com/',
-  projectId: 'omc2019-96938',
+  apiKey: 'AIzaSyDxREJ09xcmFB_Gbyef51erTgNhBIenPoI',
+  databaseURL: 'https://omc2019ionic4.firebaseio.com/',
+  projectId: 'omc2019ionic4',
 };
 
 @Component({
